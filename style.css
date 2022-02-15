@@ -15,10 +15,9 @@ body {
     align-items: center;
     overflow: hidden;
     background-color: hsl(185, 75%, 39%);
-    background-image: url('images/bg-pattern-bottom.svg');
-    background-repeat: no-repeat;
-    background-position-x: 700px;
-    background-position-y: 300px;
+    background-image: url('images/bg-pattern-top.svg'), url('images/bg-pattern-bottom.svg');
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 48vw bottom 25vh, left 45vw top 44vh;
 }
 
 .container {
